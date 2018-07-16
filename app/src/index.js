@@ -1,8 +1,22 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import './index.scss';
+import { render } from 'react-dom';
+import { Provider } from 'react-redux'
+import { ConnectedRouter } from 'connected-react-router';
+import store, { history } from './store'
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
-ReactDOM.render(<App />, document.getElementById('root'));
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './theme/minty.bootstrap.min.css';
+import './index.scss';
+
+render(
+  <Provider store={store}>
+    <ConnectedRouter history={history}>
+      <App />
+    </ConnectedRouter>
+  </Provider>,
+  document.querySelector('#root')
+);
+
 registerServiceWorker();
