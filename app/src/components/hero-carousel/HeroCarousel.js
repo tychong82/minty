@@ -48,7 +48,7 @@ function HeroCarousel() {
     slidesToScroll: 1,
     prevArrow: <CustomPrevArrow />,
     nextArrow: <CustomNextArrow />,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 2800,
     pauseOnHover: false,
   };
