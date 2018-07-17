@@ -1,0 +1,17 @@
+@import '~bootstrap/scss/_functions';
+@import '~bootstrap/scss/_variables';
+@import '~bootstrap/scss/_mixins';
+
+.hero-carousel {
+  &-slide {
+    height: 300px;
+
+    .img {
+      background-size: cover;
+    }
+
+    @include media-breakpoint-up(md) {
+      height: 514px;
+    }
+  }
+}

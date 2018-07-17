@@ -1,0 +1,14 @@
+.home {
+  position: relative;
+
+  .text-shadow {
+    text-shadow: 0.1em 0.1em 0.2em rgba(0, 0, 0, 0.5);
+  }
+
+  .slide-content-text {
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+  }
+}

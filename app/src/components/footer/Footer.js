@@ -11,7 +11,11 @@ function Footer() {
       </Row>
       <hr />
       <div className="text-center small">
-        🎉 👰 Mindy &amp; Tyrone 🤵 🎉
+        <span aria-label="tada" role="img">🎉</span>
+        <span aria-label="bridge" role="img">👰</span>
+        <span>Mindy &amp; Tyrone</span>
+        <span aria-label="groom" role="img">🤵</span>
+        <span aria-label="tada" role="img">🎉</span>
       </div>
     </Container>
   );
