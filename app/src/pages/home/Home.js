@@ -11,9 +11,14 @@ class Home extends Component {
           <header>
             <h1 className="text-shadow text-white"><span className="text-primary">Min</span>dy &amp; <span className="text-primary">Ty</span>rone</h1>
           </header>
-          <p className="mt-5 text-shadow">
-            This is our website. To do stuff in...
-          </p>
+          <blockquote className="blockquote px-5 mt-3 text-shadow">
+            <p>
+              "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            </p>
+            <footer className="text-info blockquote-footer">
+              someone famous
+            </footer>
+          </blockquote>
         </div>
         <HeroCarousel />
       </div>
