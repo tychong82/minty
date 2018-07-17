@@ -34,7 +34,7 @@ function SlideContent(props) {
 
   return (
     <div className="hero-carousel-slide">
-      <div className="h-100 img" style={{ background: `url(${photo}) no-repeat center center`, backgroundSize: 'cover' }}></div>
+      <div className="h-100 img" style={{ background: `url(${photo}) center center / cover no-repeat` }}></div>
     </div>
   );
 }
